@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+<div align="center" id="top">
+  <img src="./screenshot.png"  width="300">   
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <h1 align="center">Shopping Cart - Exercise</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#dart-description">Description</a> &#xa0; | &#xa0; 
+  <a href="#memo-improvements">Improvements</a> &#xa0; | &#xa0;
+  <a href="#art-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#toolbox-installation">Installation</a> &#xa0; | &#xa0;
+  <a href="#joystickhow-to-play">How to Play</a> &#xa0; | &#xa0;
+  <a href="#briefcase-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/arturomsoberanes" target="_blank">Author</a>
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :dart: Description ##
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The "Shopping Cart" exercise is a project of week 15 of the MITXPRO "Full-Stack with MERN" certification, In this project we create a functional shopping cart that can pull data from an API.
+To make this project use [Create React App](https://create-react-app.dev/)
 
-### `npm test`
+## :memo: Improvements ##
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+These are the list of currect improvements:
 
-### `npm run build`
+- :diamonds: Add function for checkout.
+- :diamonds: Improve the interface.
+- :diamonds: Split the pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :art: Technologies ##
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://www.w3schools.com/js/)
+- [React](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :white_check_mark: Requirements ##
 
-### `npm run eject`
+Before starting :checkered_flag:, you need to have:
+- [Git](https://git-scm.com).
+- [Node.js](https://nodejs.org/en/).
+- [Create React App](https://create-react-app.dev/).
+- [Strapi](https://strapi.io/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## :toolbox: Installation ##
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone Repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+$ git clone https://github.com/arturomsoberanes/shopping-cart.git
+```
+Change the name of directory
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+$ mv shopping-cart shopping-cart-2
+```
+Install Create React App.
 
-## Learn More
+```bash
+$ npx create-react-app my-app 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Replace the files for the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ cp -r shopping-cart-2/ my-app/ 
+```
 
-### Code Splitting
+## :joystick:	How to Run ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Access in directory
 
-### Analyzing the Bundle Size
+```bash
+$ cd my-app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Execute "start"
 
-### Making a Progressive Web App
+```bash
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## :briefcase:	 License ##
 
-### Deployment
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Made with :heart: by <a href="https://github.com/arturomsoberanes" target="_blank">Arturo Soberanes</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+&#xa0;
+
+<a href="#top">Back to top</a>
+
